@@ -84,4 +84,41 @@ But for more elaborate forms it gets complicated with `useState` because the sta
 - Validation errors: Form errors or Field errors
 - For fields, are they: active, visited, touched, modified, submitting, submitsuccess/errors, dirty since last submit
 
-Redux Forms 
+Redux Forms:
+The feedback on redux form was good but some people were asking:
+- Why is it only react
+- Why do I have to use redux
+- Why so much rerendering
+- Why is it over 27kB gzipped
+
+So he decided to work on the perfect form library:
+- Pure JS
+- Framework agmostic
+- Subscription based
+- modular/pluggable solution
+
+final-form.org
+react-final-form
+
+Migration guides are available to move from Redux Forms or Formik to react-final-form
+
+There are 2 main components (the API is quite similar to redux forms):
+- <Form>
+- <Field>
+- <FormSpy>: The new kid in the neighbourhood
+
+Those components allow subscriptions to hooks to trigger re-renders so that it does not rerender it all.
+<FormSpy> is to be able to display the <Form> information without having to rerender the whole form
+
+Conclusion:
+When working on a project, there are multiple considerations to take into account when choosing libraries to use:
+- The complexity of your problem
+- How extensible the library is
+- Does it have an extensive amount of examples (example nextjs)
+- The bundle size
+- Most importantly does it make sense to you.
+
+One metric that was noted as less important than it looks is github stars and npm downloads. Old projects always tend to have more of those just because they have been around for longer.
+
+
+
