@@ -103,12 +103,14 @@ react-final-form
 Migration guides are available to move from Redux Forms or Formik to react-final-form
 
 There are 2 main components (the API is quite similar to redux forms):
-- <Form>
-- <Field>
-- <FormSpy>: The new kid in the neighbourhood
+- `<Form>`
+- `<Field>`
+- `<FormSpy>`: The new kid in the neighbourhood
 
 Those components allow subscriptions to hooks to trigger re-renders so that it does not rerender it all.
-<FormSpy> is to be able to display the <Form> information without having to rerender the whole form
+`<FormSpy>` is to be able to display the <Form> information without having to rerender the whole form
+
+Insert examples here
 
 Conclusion:
 When working on a project, there are multiple considerations to take into account when choosing libraries to use:
@@ -120,5 +122,67 @@ When working on a project, there are multiple considerations to take into accoun
 
 One metric that was noted as less important than it looks is github stars and npm downloads. Old projects always tend to have more of those just because they have been around for longer.
 
+## Talk 4: Beautiful drag and drop
+
+Alex came on stage to explain to us the logic behind the beautifull drag n drop library he created. 
+Write about magic, He is a magician, illusion.
+It is sensor based.
+Supports a11y
+For more information: blog beautiful interaction
+
+# Talk 5: Ten X your dev team with pair programming
+
+An act by Michael and ..., starting with showing us what not to do when pair programming followed by a better approach to it, introducing ping-pong programming (one engineer writes test while the other one implements the functionnality)
+
+The key points to take out of this act are:
+- Prepare ergonomics, desk to be prepared for pairing
+- Eliminate distractions as much as possible
+- Take regular breaks
+- Plan what you are going to pair on
+- Work on the plan
+- Have a retrospective at the end of the day
+
+## Talk 6: Faster page load for react
+
+There are several possible architecture when it comes to rendering:
+
+Client side rendering, SSR, SSR + Data Hydration, Progressive Hydration (Suspens)
+
+Your architecture and technical choices are not going to make the render faster. It should be an iterative work, of measuring and improving. The hard part is what to measure?
+
+Existing tools: Lighthouse performances
+
+It is a good tool but ultimately, the choice is yours on what metrics suits your needs
+The metrics they used at ABC
+
+|Initial Render|React hydration|Third parties|
+|---|---|---|
+
+Inital render:
+- Fixed cache headers
+- gzipped what was not gzipped
+- Font swapping
+- Preloading resources (not all of it, example, only 3 of the 3 necessary font files)
+- Lazy loading images (Using the intersection observer)
+- Above the fold should not wait for javascript
+
+loading=lazy comming to html
+
+React hydration:
+- Use the nomodule hack
+- Avoid transpilling for modern browsers
+- Dynamic imports and bundke scripting ( use webpack analyse)
+- `<loadable components>`
+- react profiling for accidental re-render
+
+Third parties:
+2/3 of the javascript loaded on a page is third party (google analytics, etc)
+
+- Looks for libraries helping you to load as less as possible
+For example `lite-youtube` to load everything only once the user clicks on it
+
+
+Conclusion:
+Lighthouse is not a silver bullet, there is 15% treshold
 
 
