@@ -68,3 +68,20 @@ Prolematic:
 - => <Advice> For anything complex: Build an abstraction layer over big external dependencies in case changes are needed </Advice>
 - <Advice>Get what you can for free </Advice>
 
+## Talk 3 - Modern forms in react
+
+There are 2 forms of inputs for a form. Controlled and uncontrolled
+Controlled: provided with a `value` prop
+Uncontrolled: provided without a `value` prop
+
+An undefined `value` makes it an uncontrolled value.
+
+`useState` hook is great for smaller forms (such as google, twitter and facebook's most used forms)
+But for more elaborate forms it gets complicated with `useState` because the state of a form is quite complex:
+- Field
+- Valid/Invalid
+- Dirty/Pristine
+- Validation errors: Form errors or Field errors
+- For fields, are they: active, visited, touched, modified, submitting, submitsuccess/errors, dirty since last submit
+
+Redux Forms 
