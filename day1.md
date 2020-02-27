@@ -47,5 +47,24 @@ github.com/github/actionview-component
 
 `Perfect is the enemy of good - Voltaire`
 
+## Talk 2 (Proto)Typing innovation at BBC
 
+BBC Labs
+- Experimenting new tools and ideas
+- Releasing prototypes in 6 weeks
+
+Examples: Skippy
+using react-dnd and react-sortable-tree
+Transcription: For 1 hour of media it takes 3-4 hours to curate
+
+Led to OCTO
+
+react-transcript-editor
+using Draft.js => steep learning curve
+immutable.js
+
+Prolematic:
+- Scaling a prototype is painful. Draft is unmainainted and does not scale well
+- => <Advice> For anything complex: Build an abstraction layer over big external dependencies in case changes are needed </Advice>
+- <Advice>Get what you can for free </Advice>
 
