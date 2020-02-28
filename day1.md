@@ -184,5 +184,50 @@ For example `lite-youtube` to load everything only once the user clicks on it
 
 Conclusion:
 Lighthouse is not a silver bullet, there is 15% treshold
+Measuring impact of changes is hard 
+use pw metrics
+perfomance.api
+But one thing is to always record wins and losses.
+
+## Talk 7: Engineering led design
+
+A mindset of shars behaviours
+
+Create a context together:
+1. shared context for making good decisions
+2. create a dictionary
+3. teach as you work
+4. play it back to validate
+5. break dowm barrier language
+
+1.
+Everyone attends all problem solving meetings (initially)
+Engineers to attend/facilitate user research sessions
+Educate the designer about the __hard problems__ in software such as timezones
+
+2. 
+Naming is hard and language barrier exists, take time to define words
+
+- create shared documents that anyone can add to
+- define project specific terms (data-structure etc)
+- DYFA: Define Your Freaking Acronyms, they might be different for everyone
+- practice-specific jargon
+
+3.
+
+Learning from each others makes most of the diversity or thoughts
+Adding short lessons (30mins) in a day to day or whenever needed.
+make that a firt citizen of day to day to day.
+
+4. Play it back to validate
+
+playback often
+always "let me play that back to you"
+be playback aware
+
+5. 
+Practice empathy
+Engineers need to do the translation for designer to get on board
+Ask questions "Did that make sense"
 
 
