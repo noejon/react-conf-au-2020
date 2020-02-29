@@ -323,4 +323,89 @@ Persuasive speaking and writing skills
 TALK 10 Targeted Extensibility: Atlaskit 
 @tetrisburger
 
-Design Systems
+What is a design system?
+
+A system of design guidelines and artifacts that allows an organisation to consolidate:
+- design decisions
+- Non differiating work
+
+- They help organisations save time
+
+It is not simple to find the perfect implementation
+
+Too open and flexible VS too locked anad constrained
+Too locked => hacks, unreliable and forces to rebuild logic
+
+The problem with DS:
+1 team writting it and 50 consuming (Atlassian example)
+
+The choice for the new design system was to use react and leverage components.
+Led to: What does the user want to change in the components?
+- State - No (closed)
+- Styles - OK (open)
+- DOM - OK (open)
+
+but for anything that is open => want to protect some values
+
+So what are the solutions in place to create a components API?
+
+- Basic props - primitive prop types
+- Theme
+
+Basic props: 
+- abstracts implementation details
+
+```jsx
+<Button appearance="primary">
+```
+this is a solution, but what about new feature requests:
+- Ending up with a prop soup that slows down the ability to ship new things when bugs occur
+Another problem with props
+Forcing users to adopt bundle size and features they might not need
+
+Theming is a solution to prop soup
+A theme is not maintained by the design system team. With some blocks in place anyone can create their own theme.
+
+But basic props and theme still have limitations: 
+- usage is constrained with the system
+- users need to wait for the system to release the features
+
+What can we do to make it better and not force the users to adopt a bundle?
+
+1 - exporting hooks => the state is passed from the hooks to the components
+2 - HOC: performance cost
+3- Render props: A pattern to hand of the implementation details. The downside is that it becomes hard for big chunks of interconnected components
+4 - Targeted customisation (overrrides): For complex elements such as modal and selects. The tradeoff is that it exposes private APIs, so devs need to be careful about.
+ Those 4 solutions are escape hatches but they complete basic props and themes
+ 
+ Props and Theme are still the core features
+ Hooks, HOC, render props and targeted customisation are escape hatches completing props and themes
+ 
+ TALK 11 - XSS attack
+ 
+ What is a cross site scripting attack? 
+ 
+ When someone injects some javascript into your website (via comments for example). They most likely happen when your javascript is not sanitized
+ 40% of all attacks on the internet are XSS attacks
+ 
+ React offers us out of the box protection but also allows us to expose our apps to XSS:
+ dangerouslySetInnerHTML
+ What we can we do about it:
+ - remove dangerouslySetInnerHTML when possible
+ - sanitise inputs, both on the front end and the back-end
+ 
+ Talk 12: Creating custom form handler with hooks
+ 
+ useForm custom hook
+ -> a function that takes a validation function, a callback and initial values and returns
+ handlers (change, blur, submit), values and errors)
+ 
+ - Make sure to keep the business logic out of it
+ - Typescript and forms are tricky
+ 
+ Talk 13 - Reactronica - music as a function of state
+ 
+ I don't have notes about this particular talk. But for a good reason, it was really a demonstration of how the library @unkleho created works. And it was simply amazing, I recommend anyone to have a look at the video when it becomes available.
+reactronica.com
+inspired by react-music
+The slides where created using react spectacle and react live
