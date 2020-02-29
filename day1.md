@@ -229,5 +229,98 @@ be playback aware
 Practice empathy
 Engineers need to do the translation for designer to get on board
 Ask questions "Did that make sense"
+Rephrase instead of saying the same things louder
 
+Why should we bother?
 
+- design more aligned to engineering thinking
+- easier to negotiate constraints
+- faster/better decisions
+
+TALK 8: Take a load off
+
+1. Common problems about data fetching
+There are different ways of handling fetching:
+- Fetch on render
+- Fetch then render
+- Render as you fetch
+
+Details matter
+
+Apollo client (not only for GraphQL0
+urql
+relay ( facebook's version of Apollo)
+
+react-loads.dev
+hooks for data fetching in react
+
+TALK 9: From senior to leader: Taking the next step
+
+The next step in a career can be:
+- technical
+- new direction
+- better at current role
+
+You can always grow in different directions
+
+Front-enders might be perceived as:
+- not technical enough
+- their skillset is misunderstood
+- have an unclear career path outside of specialty
+- lack of senior mentors that share your experience
+
+What would you do if you were asked "what would you say you do here"?
+- What value can we demonstrate? 
+- You need the skills to communicate your value
+- what skills do we have
+- How can we leverage and grow those skills
+
+|technical expertise|Product stewardship|leadership and management|
+
+We work on the interaction of human and technical concerns
+
+1. 
+Understand what engineering excellence is
+Understand our environment, context, constraints
+Understand system level architecture
+
+We build reliabel, saclable technology in a complex and volatile environment every day
+Awareness of entire systems, we need to communicate that
+
+2
+Understand and execute the big picture
+Make sound product decisions
+Advocate and communicate what is best for user 
+Advocate and communicate what is best for tech decisions
+
+We are the custodians of the User Experience and customer value
+We advocate for the users all the time, a11y is important, make sure performance is OK, thinking about connectivity.
+
+We make better tech decisions if we make better product decisions.
+
+3. 
+We take responsibility for long term outcomes
+We lead coach and mentor effectively
+We manage positive changes
+We are a vibrant, supprtive tech community
+We care about teaching and learning from each others
+Developers should not hesitate to teach and mentor, go out to do it
+We learn how to communicate
+
+But as front end developers we should also learn to:
+1
+Broaden your tech knowledge
+Participate in decision making
+Develop your tech vocabulary
+2
+Participate in product meeting
+develop well informed product opinions
+3
+Mentor, coach and teach
+Seek opportunities to manage and delegate
+Persuasive speaking and writing skills
+
+TALK 10 Targeted Extensibility: Atlaskit 
+@tetrisburger
+
+Design Systems
