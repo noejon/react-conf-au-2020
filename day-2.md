@@ -248,3 +248,10 @@ Splitting up existing fields => components mindset
 Protection against "bad actors" => Rules & conventions
 
 Devs are all in this together
+
+## Talk 6 - Mitchel Hamilton - Working with Monorepos
+
+First, what are the issues with multi-repos?
+
+- Slow iteration cycle
+- dependency management (error prone)
