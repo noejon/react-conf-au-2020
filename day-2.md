@@ -1,9 +1,9 @@
-Talk 1:
+# Talk 1:
 
 Play with 4 people, exposing how redux connect works but also how the equivalent with hooks works.
 There are trade-offs, it is not as simple as just using the context and reducer hooks, as it needs some configuration to avoid unnecesary re-renders
 
-Talk 2: Mark Dalgleish
+# Talk 2: Mark Dalgleish
 
 Intersection between design and implementation
 Our industry is at crossroad
@@ -366,3 +366,29 @@ Don't understimate the power of rest (not REST, silly developer) Get good sleep 
 Sleeping is important to learn. Be gentle to yourself (the journey is long, don't burn out)
 Be a developer who celebrates learning
 
+## Talk 8
+
+A graphQL survival kit. Tales from an expeditiom @petronbot
+
+What's GraphQL:
+A query language + runtime for executing them
+
+It is cool because:
+- product centric
+- hierarchical
+- schema driven (contract to all our apps)
+
+3 dangers:
+1. Slow query responses
+2. Not knowing what to call things
+3. Not knowing what to do when an error happens
+
+1. The tree is resolved as breadth first
+response can be delayed by design or by weather conditions (bad internet)
+It is dangerous to ignore delays and risk compounding them
+You could try:
+- cache graphQL API's responses. But careful how you decide what gets cached, expect requests to change
+instead try to:
+give a brain to your GraphQL app and make data available earlier (database or application cash)
+
+Single endpoint but not single request
