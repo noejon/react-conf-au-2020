@@ -255,3 +255,114 @@ First, what are the issues with multi-repos?
 
 - Slow iteration cycle
 - dependency management (error prone)
+- split identity, docs and issues
+
+Mono-repo benefits
+
+- PRs accross multiple packages
+- single identity
+- centralised docs and issues
+
+The problem with Monorepos was the lack of tooling for problems like:
+
+- Dependency management: 
+Lerna, built Bolt with Atlassian: external packages versions have to be equal, external packages have to be on root, internal packages must be in range
+
+Came along yarn workspace, that did the same. Except if different versions of react it becomes problematic.
+This can be checked by using Manypkg:
+- it is a linter for package.json
+Available commands are `check`, `fix`
+Those are constraints that are solving people's problems
+
+2. Packaging problems:
+- consistent package.json fields
+- bundler
+- babel
+- multiple entrypoints
+- able to dev without having to rebuild
+
+preconstruct (npm)
+
+bundling is hard, but is eased with Rollup
+good at treeshaking
+Babel (not in .babelrc but babel.config.js)
+Multiple entrypoints
+Rebuild issues
+command `dev` creates dist files, there are no build scripts
+
+3 Releasing
+- Contributor declare their changes
+- Not rely on git to document changes
+- Bump dependency packages
+- Easily automate releases
+
+Build Changesets (npm)
+
+There are more benefits to a MR:
+
+- simple imports (package name rather than lengthy '../../..'
+- strict API contracts (node exports field in package.json to come)
+- structure
+
+monorepo.guide (knowledge they gathered on their monorepo journey)
+
+## Talk 7
+
+Trent Willis: teach old devs new techs
+Leraning react as a senior developer
+Heavily using jquery
+9 month lead dev did not know react => Reflection on the journey
+
+Why was the journey successful?
+- create a team culture where learning is encouraged
+
+Old developer does not mean old in age, but old in solidity, in comfort zone, stuck into old tech stacks they know.
+The comfort zone is what stops us from learning
+In the CZ one can foresee issues and quick profits
+CZ => no a bad thing inherently, we should not be scared of staying there BUT
+it becomes bad when:
+- When you stop trusting other's experience
+- afraid to fail in front of the team
+- want to remain the expert
+- we don't celebrate people learning
+All those points leads us to limit our productivity
+
+How to create a culture of learning?
+
+Why do we learn:
+|extrinsic|Intrisic|
+|--|--|
+|money, fame, success (incentives), new job|Own motivation, want to do something, because it is interesting|
+
+One type of motivation does not necessarely produce better results
+Intrisic motivation is more likely to give better results
+overjustification effect => you will be less motivated to do something because external asked you to
+Understanding motivation creates an environment where success is more likely
+
+Motivations can change:
+No intrisic motivation can change, extrinsic -> intrisic
+But the opposite can also happen and that can cause devs to burnout.
+Create a culture that fosters positive and supportive motivation for learning.
+Start by being honest about the knowledge that you have (admit when you don't know something)
+"You should know that" vs "I'm not sure, let's figure that together"
+
+The ability to learn is better than already knowing.
+There is always a lot to learn and we should have a base to learn and relearn things faster.
+This kind of cultures leads to newer technologies.
+Build empathy about learning, You can't unlearn. Listen to those learning something for the first time. Understand their difficulties and help them understand.
+LISTEN AND ACT TO CREATE POSITIVE EXPERIENCES
+Try learning a few couple of skills every now and then (guitar or anything, to remind you what it is like to learn)
+Learning a new skill is like climbing a mountain. 
+Once you have that empathy around learning, give others the chances to learn and to teach you.
+Encourage exploration of interests, build prototypes: the working ones will open to a bright future.
+If someone is able to teach you something, let them play their strengths and their knowledge. Step back and give them more responsibilities. More importantly don't get good contribution unrecognised.
+Celebrate work that you have done. And show people that you appreciate them.
+
+How to learn effectively
+
+Research the scope of what you need to learn. Step back and decide what all you need to learn. Build up knowledge in little __well defined increments__. This is also good for other people to help you.
+pick your project/tickets/issues purposefully to learn new skills. If you feel overwhelmed, take breaks. Recharge and come back with a fresh mind. (more than one break a day, probably one per hour). It also restores motivation.
+Don't understimate the power of rest (not REST, silly developer) Get good sleep (8h is the perfect amount (find ted talk)
+Sleeping is important to learn. Be gentle to yourself (the journey is long, don't burn out)
+Be a developer who celebrates learning
+
