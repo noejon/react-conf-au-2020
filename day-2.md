@@ -1,9 +1,13 @@
-# Talk 1:
+## Talk 1: [Redux Connect vs Redux Hooks: A play](https://reactconfau.com/talks/redux-connect-vs-redux-hooks-a-play)
+
+By [Terence Jeong](https://twitter.com/terence_jeong) and friends
 
 Play with 4 people, exposing how redux connect works but also how the equivalent with hooks works.
 There are trade-offs, it is not as simple as just using the context and reducer hooks, as it needs some configuration to avoid unnecesary re-renders
 
-# Talk 2: Mark Dalgleish
+## Talk 2: [Rethinking Design Practices](https://reactconfau.com/talks/rethinking-design-practices)
+
+By [Mark Dalgleish](https://twitter.com/markdalgleish)
 
 Intersection between design and implementation
 Our industry is at crossroad
@@ -86,7 +90,9 @@ Welcome designer into the fold (running workshop with designer, force them if ne
 In conclusion rethink design practices
 It is not going to happen without us
 
-## Talk 3: 5 things you should know about wordpress... wait, what?
+## [5 things you should know about WordPress... wait, what?](https://reactconfau.com/talks/5-things-you-should-know-about-wordpress-wait-what)
+
+By [Isabel Brison](https://twitter.com/ijayessbe)
 
 5 things we already know:
 - it is a CMS
@@ -122,7 +128,9 @@ https://github/com/wordpress/guthenberg
 
 WP encourages people to build using react.
 
-## TALK 4: Write fewer tests @davidkpiano
+## TALK 4: [Write fewer tests! Model-based testing in React](https://reactconfau.com/talks/write-fewer-tests-model-based-testing-in-react)
+
+By [David Khoursid](https://twitter.com/davidkpiano) 
 Model base tesing in react
 
 Writing all the tests is the most hated thing amongst front-end developers
@@ -193,7 +201,9 @@ Better: Requirements integrity, efficiency, Flexibility, Reduce cost/time, test 
 Make your code model driven, generate tests, generate docs, generate prototypes
 Make your code do more.
 
-## Talk 5
+## Talk 5 [The tragedy of scale](https://reactconfau.com/talks/the-tragedy-of-scale)
+
+By [Hannes Obweger](https://twitter.com/obweger) and [Nadia Makarevich](https://twitter.com/adevnadia)
 
 Shared limited resources, tragedy of the common
 Applies to software engineering too
