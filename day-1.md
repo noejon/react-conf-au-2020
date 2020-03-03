@@ -2,7 +2,7 @@
 
 ## Keynote:
 
-From Max Stoiber @mxstbr
+From Max Stoiber [@mxstbr](https://twitter.com/mxstbr)
 
 Ran down a little history of css-in-js. 
 The first years were full of new ideas and improvments, open source projects were pushing each other to be better.
@@ -14,7 +14,9 @@ Call out for us developers to experiment in that area. Using the following mantr
 - document all the things
 
 ## Talk 1: Themability is the path to dark mode
-@broccolini
+
+From Diana Mounter [@broccolini](https://twitter.com/broccolini)
+
 Colors is something that always changes
 Dark mode is one of the features that is asked the most for github
 One line of code to update all the things
@@ -49,6 +51,8 @@ github.com/github/actionview-component
 
 ## Talk 2 (Proto)Typing innovation at BBC
 
+From James Dooley [jamesdools](https://github.com/jamesdools)
+
 BBC Labs
 - Experimenting new tools and ideas
 - Releasing prototypes in 6 weeks
@@ -69,6 +73,8 @@ Prolematic:
 - <Advice>Get what you can for free </Advice>
 
 ## Talk 3 - Modern forms in react
+
+From Erik Rasmussen [@erikras](https://twitter.com/erikras)
 
 There are 2 forms of inputs for a form. Controlled and uncontrolled
 Controlled: provided with a `value` prop
@@ -124,6 +130,8 @@ One metric that was noted as less important than it looks is github stars and np
 
 ## Talk 4: Beautiful drag and drop
 
+From Alexander Reardon [@alexandereardon](https://twitter.com/alexandereardon)
+
 Alex came on stage to explain to us the logic behind the beautifull drag n drop library he created. 
 Write about magic, He is a magician, illusion.
 It is sensor based.
@@ -131,6 +139,8 @@ Supports a11y
 For more information: blog beautiful interaction
 
 # Talk 5: Ten X your dev team with pair programming
+
+From [Selena Small]() and [Michael Milewski](https://twitter.com/saramic)
 
 An act by Michael and ..., starting with showing us what not to do when pair programming followed by a better approach to it, introducing ping-pong programming (one engineer writes test while the other one implements the functionnality)
 
@@ -143,6 +153,8 @@ The key points to take out of this act are:
 - Have a retrospective at the end of the day
 
 ## Talk 6: Faster page load for react
+
+From [Josh Duck](https://twitter.com/joshduck)
 
 There are several possible architecture when it comes to rendering:
 
@@ -191,6 +203,8 @@ But one thing is to always record wins and losses.
 
 ## Talk 7: Engineering led design
 
+From Lauren Argenta 
+
 A mindset of shars behaviours
 
 Create a context together:
@@ -237,7 +251,9 @@ Why should we bother?
 - easier to negotiate constraints
 - faster/better decisions
 
-TALK 8: Take a load off
+## TALK 8: Take a load off
+
+From [Jake Moxey](https://twitter.com/jxom_)
 
 1. Common problems about data fetching
 There are different ways of handling fetching:
@@ -254,7 +270,9 @@ relay ( facebook's version of Apollo)
 react-loads.dev
 hooks for data fetching in react
 
-TALK 9: From senior to leader: Taking the next step
+## TALK 9: From senior to leader: Taking the next step
+
+From [Cathy Lill](https://twitter.com/cathyblabla)
 
 The next step in a career can be:
 - technical
@@ -320,8 +338,9 @@ Mentor, coach and teach
 Seek opportunities to manage and delegate
 Persuasive speaking and writing skills
 
-TALK 10 Targeted Extensibility: Atlaskit 
-@tetrisburger
+## TALK 10 Targeted Extensibility: Atlaskit 
+
+From [Charles Lee](https://twitter.com/tetrisburger)
 
 What is a design system?
 
@@ -381,7 +400,9 @@ What can we do to make it better and not force the users to adopt a bundle?
  Props and Theme are still the core features
  Hooks, HOC, render props and targeted customisation are escape hatches completing props and themes
  
- TALK 11 - XSS attack
+ ## TALK 11 - XSS attack
+ 
+ From [Carmen Chung](https://twitter.com/carmenhchung)
  
  What is a cross site scripting attack? 
  
@@ -394,7 +415,9 @@ What can we do to make it better and not force the users to adopt a bundle?
  - remove dangerouslySetInnerHTML when possible
  - sanitise inputs, both on the front end and the back-end
  
- Talk 12: Creating custom form handler with hooks
+ ## Talk 12: Creating custom form handler with hooks
+ 
+ From [Hannah Thompson](https://twitter.com/hannahcancode)
  
  useForm custom hook
  -> a function that takes a validation function, a callback and initial values and returns
@@ -403,7 +426,9 @@ What can we do to make it better and not force the users to adopt a bundle?
  - Make sure to keep the business logic out of it
  - Typescript and forms are tricky
  
- Talk 13 - Reactronica - music as a function of state
+ ## Talk 13 - Reactronica - music as a function of state
+ 
+ From [Kaho Cheung](https://twitter.com/unkleho)
  
  I don't have notes about this particular talk. But for a good reason, it was really a demonstration of how the library @unkleho created works. And it was simply amazing, I recommend anyone to have a look at the video when it becomes available.
 reactronica.com
