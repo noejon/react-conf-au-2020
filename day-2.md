@@ -392,3 +392,140 @@ instead try to:
 give a brain to your GraphQL app and make data available earlier (database or application cash)
 
 Single endpoint but not single request
+
+It's OK to make a bunch of small, granular requests.
+... peel back the curtain, but needs to understand the backend to optimise
+
+2. Knowing what to call things:
+Create a modelling domain:
+
+|Naming|Connections|
+|-|-|
+|Lists|Making changes|
+
+Make sure that the user's behaviour is described by the operation
+
+```js
+type Mutation {
+  updateX(...) // Too generic, not descriptive enough
+  addXtoY(...) // better, more specific
+```
+
+Does it mean that we need to create an operation for each interaction in your model?
+Yes, if a user can do it, your model should be able to do it
+
+3. What to do when things go wrong
+
+Seeing a 200 response with an error
+Your app decides what to do when things go wrong when we receive
+
+```js
+success(200){
+  data: {...},
+  error: {...}
+}
+```
+Two types of errors:
+- Server errors: plumbing has gone wrong
+- GraphQL errors: data has gone wrong
+
+1. be aware of how queries are are resolved, be adaptable with requests
+2. Be involved in the schema design process (all in the team should, design, QA, devs)
+3. Make sure to do the work to handle errors
+
+Conclusion:
+Great coverage of tools and adapters
+API odcs comes for free
+does not care about your transport method
+you can write less code and get more app (easy win)
+
+GraphQL playground
+https://petragulicher.com/talks
+
+## Talk 9 Tejas Kumar
+REST and GraphQL and stuff
+
+Benefits of typescript
+react style guides
+github.com/operational-ui
+
+Watch React Finland Conf with Tejas YT link
+
+How TS helped with network errors
+REST is not good because:
+- There are no formal specsion
+- it is guessing games: BE makes assumptions of FE and FE makes assumptions of BE.
+- meaningless discussions (should we use a put or a patch)
+- No contractual aggreements
+
+A solution to that could be using GraphQL, which is good because:
+- it has formal specs
+- there are no guessing games
+- meaningful discussions (should we cache, lazy load etc)
+- strong contractual agreements
+
+Some companies won't allow introducing new techs. 
+In the face of constraints you can get bitter or you can get better
+Lead the creation of restful-react (gh) => e2e type safety
+
+The takeways of project:
+- innovate against constraints
+- choose better over bitter
+- support open source
+ 
+ ## Closing talk:
+ 
+ Innovation: Open source mentality
+ The value of opensource is both everything and nothing.
+ 
+ Read about 1000 Days of open source on medium
+ 
+ Open source has a lot of value:
+ - it increases the quality of life, makes us more productive and increases the quality of product
+ - Open source builds on great abstractions
+And we love abstractions
+Open source is strong but it has weaknesses
+It has a lot of value but has no value
+
+Lifecycle of opens source:
+enthusiasm -> opens -> growth -> maintenance
+
+success !== success
+investment !== sustainability
+
+We need sustained investments.
+
+If people NEED to pay for open source, it breaks
+
+there are answers to this problem:
+
+Social responsibility: companies are not charities, so that is not the answer
+Virtuous cycle does
+
+github.com/lemonadestand
+
+- corporate stewardship (react/angular)
+- Apollo - Sells services and support
+- Nextjs - Zeit platform and now
+- Gatsby - VC funding
+
+What if we don't need abstraction
+
+Babel is supported by donations. It is critical infrastructure and it is seriously underfunded
+
+We can do better than that:
+- Tragedy of the commons
+Solution => the mid-way solution where everyone just does a little bit
+
+Open source leans too much on individual value to be sustainable at scale.
+
+Explain to your company the value of open source
+Companies have budget for training, set up some budgetto contribute to open source.
+
+API, docs, skilss are constrained resources.
+There is no forced adoption in open source.
+
+Contributing to open source you:
+- are out of your comfort zone
+- get a broad experience as 
+
