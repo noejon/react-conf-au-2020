@@ -1,8 +1,8 @@
 # React-conf-2020 Day 1
 
-## Keynote:
+## [Keynote CSS-in-JS](https://reactconfau.com/talks/css-in-js)
 
-From Max Stoiber [@mxstbr](https://twitter.com/mxstbr)
+By [Max Stoiber](https://twitter.com/mxstbr)
 
 Ran down a little history of css-in-js. 
 The first years were full of new ideas and improvments, open source projects were pushing each other to be better.
@@ -13,9 +13,9 @@ Call out for us developers to experiment in that area. Using the following mantr
 - share early and share often
 - document all the things
 
-## Talk 1: Themability is the path to dark mode
+## [Themability is the path to dark mode](https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode)
 
-From Diana Mounter [@broccolini](https://twitter.com/broccolini)
+by [Diana Mounter](https://twitter.com/broccolini)
 
 Colors is something that always changes
 Dark mode is one of the features that is asked the most for github
@@ -49,9 +49,9 @@ github.com/github/actionview-component
 
 `Perfect is the enemy of good - Voltaire`
 
-## Talk 2 (Proto)Typing innovation at BBC
+## [(Proto)yyping innovation in BBC News](https://reactconfau.com/talks/prototyping-innovation-in-bbc-news)
 
-From James Dooley [jamesdools](https://github.com/jamesdools)
+by James Dooley
 
 BBC Labs
 - Experimenting new tools and ideas
@@ -72,9 +72,9 @@ Prolematic:
 - => <Advice> For anything complex: Build an abstraction layer over big external dependencies in case changes are needed </Advice>
 - <Advice>Get what you can for free </Advice>
 
-## Talk 3 - Modern forms in react
+## [Modern forms in react](https://reactconfau.com/talks/modern-forms-in-react)
 
-From Erik Rasmussen [@erikras](https://twitter.com/erikras)
+By [Erik Rasmussen](https://twitter.com/erikras)
 
 There are 2 forms of inputs for a form. Controlled and uncontrolled
 Controlled: provided with a `value` prop
@@ -128,9 +128,9 @@ When working on a project, there are multiple considerations to take into accoun
 
 One metric that was noted as less important than it looks is github stars and npm downloads. Old projects always tend to have more of those just because they have been around for longer.
 
-## Talk 4: Beautiful drag and drop
+## [react-beautiful-dnd: Behind the magic](https://reactconfau.com/talks/react-beautiful-dnd-behind-the-magic)
 
-From Alexander Reardon [@alexandereardon](https://twitter.com/alexandereardon)
+By [Alexander Reardon](https://twitter.com/alexandereardon)
 
 Alex came on stage to explain to us the logic behind the beautifull drag n drop library he created. 
 Write about magic, He is a magician, illusion.
@@ -138,9 +138,9 @@ It is sensor based.
 Supports a11y
 For more information: blog beautiful interaction
 
-# Talk 5: Ten X your dev team with pair programming
+# [10 x your teamwork through pair programming](https://reactconfau.com/talks/10-x-your-teamwork-through-pair-programming)
 
-From [Selena Small]() and [Michael Milewski](https://twitter.com/saramic)
+By [Selena Small](https://twitter.com/selenasmall88) and [Michael Milewski](https://twitter.com/saramic)
 
 An act by Michael and ..., starting with showing us what not to do when pair programming followed by a better approach to it, introducing ping-pong programming (one engineer writes test while the other one implements the functionnality)
 
@@ -152,9 +152,9 @@ The key points to take out of this act are:
 - Work on the plan
 - Have a retrospective at the end of the day
 
-## Talk 6: Faster page load for react
+## [The first two seconds: Faster page loads with React](https://reactconfau.com/talks/the-first-two-seconds-faster-page-loads-with-react)
 
-From [Josh Duck](https://twitter.com/joshduck)
+By [Josh Duck](https://twitter.com/joshduck)
 
 There are several possible architecture when it comes to rendering:
 
