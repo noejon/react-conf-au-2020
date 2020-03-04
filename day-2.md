@@ -259,7 +259,9 @@ Protection against "bad actors" => Rules & conventions
 
 Devs are all in this together
 
-## Talk 6 - Mitchel Hamilton - Working with Monorepos
+## Talk 6 - [Building with Monorepos](https://reactconfau.com/talks/building-with-monorepos?from=schedule)
+
+By [Mitchell Hamilton](https://twitter.com/mitchellhamiltn)
 
 First, what are the issues with multi-repos?
 
@@ -316,9 +318,11 @@ There are more benefits to a MR:
 
 monorepo.guide (knowledge they gathered on their monorepo journey)
 
-## Talk 7
+## Talk 7: [How to teach an old dev new tech: Learning React as a senior developer](https://reactconfau.com/talks/how-to-teach-an-old-dev-new-tech-learning-react-as-a-senior-developer)
 
-Trent Willis: teach old devs new techs
+By [Trent Willis](https://twitter.com/trentmwillis)
+
+teach old devs new techs
 Leraning react as a senior developer
 Heavily using jquery
 9 month lead dev did not know react => Reflection on the journey
@@ -376,7 +380,9 @@ Don't understimate the power of rest (not REST, silly developer) Get good sleep 
 Sleeping is important to learn. Be gentle to yourself (the journey is long, don't burn out)
 Be a developer who celebrates learning
 
-## Talk 8
+## Talk 8: [A GraphQL Survival Kit](https://reactconfau.com/talks/a-graphql-react-survival-kit-how-to-avoid-the-pitfalls-and-level-up-your-teams-creativity)
+
+By [Petra Gulicher](https://twitter.com/petronbot)
 
 A graphQL survival kit. Tales from an expeditiom @petronbot
 
@@ -452,7 +458,8 @@ you can write less code and get more app (easy win)
 GraphQL playground
 https://petragulicher.com/talks
 
-## Talk 9 Tejas Kumar
+## Talk 9: [Powerful REST in a GraphQL world](https://reactconfau.com/talks/powerful-rest-in-a-graphql-world)
+by [Tejas Kumar](https://twitter.com/tejaskumar_)
 REST and GraphQL and stuff
 
 Benefits of typescript
@@ -483,7 +490,9 @@ The takeways of project:
 - choose better over bitter
 - support open source
  
- ## Closing talk:
+ ## Closing talk: The Value of Open Source
+ 
+ By [Jed Watson](https://github.com/JedWatson)
  
  Innovation: Open source mentality
  The value of opensource is both everything and nothing.
