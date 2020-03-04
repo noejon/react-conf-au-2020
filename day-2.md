@@ -546,5 +546,35 @@ There is no forced adoption in open source.
 
 Contributing to open source you:
 - are out of your comfort zone
-- get a broad experience as 
+- get a broad experience as a product owner, engineer, marketer, designer (missing one)
+
+Companies spend money to avoid risk:
+- legal
+- retention
+- insurance
+
+What would be the cost if a company had to maintain one of the dependencies that saved us time? Unamintained packages might become vulnerable which could be a big risk for companies.
+
+No individual company can (or should) pay for it all.
+
+One solution could be tha companies allocate a small amount per year to spend on open source.
+
+Salary $100k => give $100 to open source.
+
+Your team is actually a mix of inhouse devs and open source devs..
+
+As devs, we have the power to make that happen. 
+We make decisions about what tools we use (Jira, Slack, Workplace)
+We get free lunch or friday night drinks
+For a company, open source is a good ROI, invest in open source
+
+How did we get ping pong tables, free lunches etc?
+By asking for it.
+
+For each company this is a small contribution, but it is huge for open source
+
+For that [budgetforopensource.org](https://budgetforopensource.org/)
+
+Funding it fits the way company works
+
 
