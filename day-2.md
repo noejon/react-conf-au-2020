@@ -1,11 +1,11 @@
-## Talk 1: [Redux Connect vs Redux Hooks: A play](https://reactconfau.com/talks/redux-connect-vs-redux-hooks-a-play)
+## [Redux Connect vs Redux Hooks: A play](https://reactconfau.com/talks/redux-connect-vs-redux-hooks-a-play)
 
 By [Terence Jeong](https://twitter.com/terence_jeong) and friends
 
 Play with 4 people, exposing how redux connect works but also how the equivalent with hooks works.
 There are trade-offs, it is not as simple as just using the context and reducer hooks, as it needs some configuration to avoid unnecesary re-renders
 
-## Talk 2: [Rethinking Design Practices](https://reactconfau.com/talks/rethinking-design-practices)
+## [Rethinking Design Practices](https://reactconfau.com/talks/rethinking-design-practices)
 
 By [Mark Dalgleish](https://twitter.com/markdalgleish)
 
@@ -128,7 +128,7 @@ https://github/com/wordpress/guthenberg
 
 WP encourages people to build using react.
 
-## TALK 4: [Write fewer tests! Model-based testing in React](https://reactconfau.com/talks/write-fewer-tests-model-based-testing-in-react)
+## [Write fewer tests! Model-based testing in React](https://reactconfau.com/talks/write-fewer-tests-model-based-testing-in-react)
 
 By [David Khoursid](https://twitter.com/davidkpiano) 
 Model base tesing in react
@@ -201,7 +201,7 @@ Better: Requirements integrity, efficiency, Flexibility, Reduce cost/time, test 
 Make your code model driven, generate tests, generate docs, generate prototypes
 Make your code do more.
 
-## Talk 5 [The tragedy of scale](https://reactconfau.com/talks/the-tragedy-of-scale)
+## [The tragedy of scale](https://reactconfau.com/talks/the-tragedy-of-scale)
 
 By [Hannes Obweger](https://twitter.com/obweger) and [Nadia Makarevich](https://twitter.com/adevnadia)
 
@@ -259,7 +259,7 @@ Protection against "bad actors" => Rules & conventions
 
 Devs are all in this together
 
-## Talk 6 - [Building with Monorepos](https://reactconfau.com/talks/building-with-monorepos?from=schedule)
+## [Building with Monorepos](https://reactconfau.com/talks/building-with-monorepos?from=schedule)
 
 By [Mitchell Hamilton](https://twitter.com/mitchellhamiltn)
 
@@ -318,7 +318,7 @@ There are more benefits to a MR:
 
 monorepo.guide (knowledge they gathered on their monorepo journey)
 
-## Talk 7: [How to teach an old dev new tech: Learning React as a senior developer](https://reactconfau.com/talks/how-to-teach-an-old-dev-new-tech-learning-react-as-a-senior-developer)
+## [How to teach an old dev new tech: Learning React as a senior developer](https://reactconfau.com/talks/how-to-teach-an-old-dev-new-tech-learning-react-as-a-senior-developer)
 
 By [Trent Willis](https://twitter.com/trentmwillis)
 
@@ -380,7 +380,7 @@ Don't understimate the power of rest (not REST, silly developer) Get good sleep 
 Sleeping is important to learn. Be gentle to yourself (the journey is long, don't burn out)
 Be a developer who celebrates learning
 
-## Talk 8: [A GraphQL Survival Kit](https://reactconfau.com/talks/a-graphql-react-survival-kit-how-to-avoid-the-pitfalls-and-level-up-your-teams-creativity)
+## [A GraphQL Survival Kit](https://reactconfau.com/talks/a-graphql-react-survival-kit-how-to-avoid-the-pitfalls-and-level-up-your-teams-creativity)
 
 By [Petra Gulicher](https://twitter.com/petronbot)
 
@@ -458,7 +458,7 @@ you can write less code and get more app (easy win)
 GraphQL playground
 https://petragulicher.com/talks
 
-## Talk 9: [Powerful REST in a GraphQL world](https://reactconfau.com/talks/powerful-rest-in-a-graphql-world)
+## [Powerful REST in a GraphQL world](https://reactconfau.com/talks/powerful-rest-in-a-graphql-world)
 by [Tejas Kumar](https://twitter.com/tejaskumar_)
 REST and GraphQL and stuff
 
