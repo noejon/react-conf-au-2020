@@ -201,7 +201,7 @@ use pw metrics
 perfomance.api
 But one thing is to always record wins and losses.
 
-## Talk 7: Engineering led design
+## [Engineering led design](https://reactconfau.com/talks/engineering-led-design)
 
 From Lauren Argenta 
 
@@ -251,9 +251,9 @@ Why should we bother?
 - easier to negotiate constraints
 - faster/better decisions
 
-## TALK 8: Take a load off
+## [Take a load off with React](https://reactconfau.com/talks/take-a-load-off-with-react)
 
-From [Jake Moxey](https://twitter.com/jxom_)
+By [Jake Moxey](https://twitter.com/jxom_)
 
 1. Common problems about data fetching
 There are different ways of handling fetching:
@@ -270,9 +270,9 @@ relay ( facebook's version of Apollo)
 react-loads.dev
 hooks for data fetching in react
 
-## TALK 9: From senior to leader: Taking the next step
+## [Senior to leader: Taking the next step](https://reactconfau.com/talks/senior-to-leader-taking-the-next-step)
 
-From [Cathy Lill](https://twitter.com/cathyblabla)
+By [Cathy Lill](https://twitter.com/cathyblabla)
 
 The next step in a career can be:
 - technical
@@ -338,9 +338,9 @@ Mentor, coach and teach
 Seek opportunities to manage and delegate
 Persuasive speaking and writing skills
 
-## TALK 10 Targeted Extensibility: Atlaskit 
+## [Targeted extensibility: Lessons learned from building Atlaskit](https://reactconfau.com/talks/targeted-extensibility-lessons-learned-from-building-atlaskit)
 
-From [Charles Lee](https://twitter.com/tetrisburger)
+By [Charles Lee](https://twitter.com/tetrisburger)
 
 What is a design system?
 
@@ -400,9 +400,9 @@ What can we do to make it better and not force the users to adopt a bundle?
  Props and Theme are still the core features
  Hooks, HOC, render props and targeted customisation are escape hatches completing props and themes
  
- ## TALK 11 - XSS attack
+ ## [What is an XSS attack - and why should you care?](https://reactconfau.com/talks/what-is-an-xss-attack-and-why-should-you-care)
  
- From [Carmen Chung](https://twitter.com/carmenhchung)
+ By [Carmen Chung](https://twitter.com/carmenhchung)
  
  What is a cross site scripting attack? 
  
@@ -415,9 +415,9 @@ What can we do to make it better and not force the users to adopt a bundle?
  - remove dangerouslySetInnerHTML when possible
  - sanitise inputs, both on the front end and the back-end
  
- ## Talk 12: Creating custom form handler with hooks
+ ## [Creating custom form handler with hooks](https://reactconfau.com/talks/creating-a-custom-form-handler-with-hooks)
  
- From [Hannah Thompson](https://twitter.com/hannahcancode)
+ By [Hannah Thompson](https://twitter.com/hannahcancode)
  
  useForm custom hook
  -> a function that takes a validation function, a callback and initial values and returns
@@ -426,9 +426,9 @@ What can we do to make it better and not force the users to adopt a bundle?
  - Make sure to keep the business logic out of it
  - Typescript and forms are tricky
  
- ## Talk 13 - Reactronica - music as a function of state
+ ## [Reactronica - music as a function of state](https://reactconfau.com/talks/reactronica-music-as-a-function-of-state)
  
- From [Kaho Cheung](https://twitter.com/unkleho)
+ By [Kaho Cheung](https://twitter.com/unkleho)
  
  I don't have notes about this particular talk. But for a good reason, it was really a demonstration of how the library @unkleho created works. And it was simply amazing, I recommend anyone to have a look at the video when it becomes available.
 reactronica.com
