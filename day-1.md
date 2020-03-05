@@ -307,11 +307,12 @@ There are different ways of handling fetching:
 
 Details matter
 
-Apollo client (not only for GraphQL0
-urql
-relay ( facebook's version of Apollo)
+[Apollo client](https://github.com/apollographql/apollo-client) (not only for GraphQL)
+[urql](https://github.com/FormidableLabs/urql)
+[relay](https://github.com/facebook/relay) ( facebook's version of Apollo)
 
-react-loads.dev
+[react-loads.dev](https://github.com/jxom/react-loads)
+
 hooks for data fetching in react
 
 ## [Senior to leader: Taking the next step](https://reactconfau.com/talks/senior-to-leader-taking-the-next-step)
@@ -385,6 +386,7 @@ Persuasive speaking and writing skills
 ## [Targeted extensibility: Lessons learned from building Atlaskit](https://reactconfau.com/talks/targeted-extensibility-lessons-learned-from-building-atlaskit)
 
 By [Charles Lee](https://twitter.com/tetrisburger)
+[Atlaskit](https://atlaskit.atlassian.com/) and its [bitbucket repository](https://bitbucket.org/atlassian/atlaskit-mk-2/src/master/)
 
 What is a design system?
 
@@ -475,6 +477,6 @@ What can we do to make it better and not force the users to adopt a bundle?
  By [Kaho Cheung](https://twitter.com/unkleho)
  
  I don't have notes about this particular talk. But for a good reason, it was really a demonstration of how the library @unkleho created works. And it was simply amazing, I recommend anyone to have a look at the video when it becomes available.
-reactronica.com
-inspired by react-music
-The slides where created using react spectacle and react live
+[reactronica.com](https://reactronica.com/) and its [github repository](https://github.com/unkleho/reactronica)
+Using [tone.js](https://github.com/Tonejs/Tone.js) and inspired by [react-music](https://github.com/FormidableLabs/react-music)
+The slides where created using [spectacle-(https://github.com/FormidableLabs/spectacle) and [react live](https://github.com/FormidableLabs/react-live)
