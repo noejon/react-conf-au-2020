@@ -4,7 +4,46 @@
 
 By [Max Stoiber](https://twitter.com/mxstbr)
 
+past, present and future of CSS in JS/styled components.
+
+CSS in JS =>  CSS  -> applied via a hash-based class in the HTML.
+
+Benefits
+
+- confidence: any given style is only used in one known place
+- painless maintenance: stylesheets becoming too big and maintaining it appending new classes at the bottom
+- enhanced teamwork: no need for the whole team to have an encyclopedic knowledge of CSS
+- fast performance: only the CSS you need for the current view is loaded
+- dynamic styling: theming in CSS in JS is highly dynamic
+
+CSS in JS guides you to the “pit of success”.
+Does not mean you can’t fuck it up!
+But it means you won’t have some of the common problems. 
+It’s popular – 60% of React installs also install a CSS-in-JS library.
+
 Ran down a little history of css-in-js. 
+
+- Nov 2014: [JSS](https://github.com/cssinjs/jss)
+- Nov 2014: [@vjeux](https://github.com/vjeux)
+- Jan 2015: [Radium](https://github.com/FormidableLabs/radium)
+- Feb 2015: [Rebass](https://github.com/rebassjs/rebass)
+- May 2015: [CSS Modules](https://github.com/css-modules) - not CSS-in-JS but popularised hashed classnames
+- Sep 2015: [CSJS](https://github.com/rtsao/csjs) - introduced strings of CSS instead of CSS in JS objects
+- Oct 2015: [Aphrodite](https://github.com/Khan/aphrodite) - critical CSS extraction
+- Jun 2016: [Fela](https://github.com/robinweser/fela) - style as function of state
+- Jul 2016: [Glamor](https://github.com/threepointone/glamor) - performance by skipping DOM
+- Oct 2016: [jsxstyle](https://github.com/jsxstyle/jsxstyle)
+- Oct 2016: [styled-components](https://github.com/styled-components) - popularised the styled API
+- Dec 2016: [styletron](https://github.com/styletron/styletron)
+- Dec 2016: [styled-jsx](https://github.com/zeit/styled-jsx)
+- Mar 2017: [Astroturf](https://github.com/4Catalyzer/astroturf) - extracted styles out to .css file
+- Apr 2017: [Glamorous](https://github.com/paypal/glamorous)
+- May 2017: [styled-components v2](https://github.com/styled-components/styled-components) - stylis as CSS parser of choice
+- Jul 2017: [Emotion](https://github.com/emotion-js/emotion) - pushed performance
+- Sep 2017: [Linaria](https://github.com/callstack/linaria)
+- Nov 2018: [Emotion v 10](https://github.com/emotion-js/emotion)  - css prop
+- Jun 2019: [theme-ui](https://github.com/system-ui/theme-ui) - consistency via theming
+
 The first years were full of new ideas and improvments, open source projects were pushing each other to be better.
 No major changes since 2017
 
@@ -32,7 +71,7 @@ Design system split in 3 layers:
 
 css-in-js is the perfect tool to achieve that
 
-jxnblk.com/blog/design-graph
+[jxnblk.com/blog/design-graph](https://jxnblk.com/blog/design-graph/)
 
 The colors name are moved from presentational to functional i.e. `green` => `primary`
 
@@ -41,11 +80,14 @@ There is a lot of tweeking necessary, especially to keep the color scheme access
 
 To discover more about design systems => Rune Madsen
 
-programmingdesignsystems.com
-theme-ui.com
+[programmingdesignsystems.com](https://programmingdesignsystems.com/introduction/)
+[theme-ui.com](https://theme-ui.com/)
 
-github.com/github/primer/components/css
-github.com/github/actionview-component
+[Primer on github](https://github.com/primer)
+[Primer components](https://github.com/primer/components)
+[Primer css][https://github.com/primer/css]
+[Primer website](https://primer.style/)
+[Experimenting dark mode in ](https://github.com/github/actionview-component)
 
 `Perfect is the enemy of good - Voltaire`
 
@@ -57,15 +99,16 @@ BBC Labs
 - Experimenting new tools and ideas
 - Releasing prototypes in 6 weeks
 
-Examples: Skippy
-using react-dnd and react-sortable-tree
+Examples: [Skippy](https://bbcnewslabs.co.uk/projects/voice-user-interfaces/) ([read more here](https://www.bbc.co.uk/blogs/internet/entries/9e4ce480-2eca-4fa5-be25-1af0e12befc6))
+using [react-dnd](https://github.com/react-dnd/react-dnd) and [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree)
+
 Transcription: For 1 hour of media it takes 3-4 hours to curate
 
-Led to OCTO
+Led to [OCTO](https://bbcnewslabs.co.uk/projects/octo/)
 
-react-transcript-editor
-using Draft.js => steep learning curve
-immutable.js
+[react-transcript-editor](https://github.com/bbc/react-transcript-editor)
+using [Draft.js](https://github.com/facebook/draft-js) => steep learning curve
+and [immutable.js](https://github.com/immutable-js/immutable-js)
 
 Prolematic:
 - Scaling a prototype is painful. Draft is unmainainted and does not scale well
@@ -74,7 +117,7 @@ Prolematic:
 
 ## [Modern forms in react](https://reactconfau.com/talks/modern-forms-in-react)
 
-By [Erik Rasmussen](https://twitter.com/erikras)
+By [Erik Rasmussen](https://twitter.com/erikras) creator of [Redux Form](https://github.com/redux-form/redux-form), [final-form](https://github.com/final-form/final-form#-final-form) and [React Final Form](https://github.com/final-form/react-final-form)
 
 There are 2 forms of inputs for a form. Controlled and uncontrolled
 Controlled: provided with a `value` prop
@@ -103,8 +146,7 @@ So he decided to work on the perfect form library:
 - Subscription based
 - modular/pluggable solution
 
-final-form.org
-react-final-form
+[final-form.org](https://final-form.org/) and [react-final-form](https://final-form.org/react)
 
 Migration guides are available to move from Redux Forms or Formik to react-final-form
 
@@ -116,13 +158,13 @@ There are 2 main components (the API is quite similar to redux forms):
 Those components allow subscriptions to hooks to trigger re-renders so that it does not rerender it all.
 `<FormSpy>` is to be able to display the <Form> information without having to rerender the whole form
 
-Insert examples here
+[Here is an example](https://final-form.org/docs/react-final-form/examples/subscriptions)
 
 Conclusion:
 When working on a project, there are multiple considerations to take into account when choosing libraries to use:
 - The complexity of your problem
 - How extensible the library is
-- Does it have an extensive amount of examples (example nextjs)
+- Does it have an extensive amount of examples (example [nextjs](https://github.com/zeit/next.js/tree/canary/examples))
 - The bundle size
 - Most importantly does it make sense to you.
 
@@ -131,6 +173,8 @@ One metric that was noted as less important than it looks is github stars and np
 ## [react-beautiful-dnd: Behind the magic](https://reactconfau.com/talks/react-beautiful-dnd-behind-the-magic)
 
 By [Alexander Reardon](https://twitter.com/alexandereardon)
+
+[react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)
 
 Alex came on stage to explain to us the logic behind the beautifull drag n drop library he created. 
 Write about magic, He is a magician, illusion.
@@ -162,10 +206,11 @@ Client side rendering, SSR, SSR + Data Hydration, Progressive Hydration (Suspens
 
 Your architecture and technical choices are not going to make the render faster. It should be an iterative work, of measuring and improving. The hard part is what to measure?
 
-Existing tools: Lighthouse performances
+Existing tools: [Lighthouse](https://developers.google.com/web/tools/lighthouse) performances [github](https://github.com/GoogleChrome/lighthouse)
 
 It is a good tool but ultimately, the choice is yours on what metrics suits your needs
-The metrics they used at ABC
+
+The metrics they used at [ABC](https://www.abc.net.au/)
 
 |Initial Render|React hydration|Third parties|
 |---|---|---|
@@ -178,20 +223,19 @@ Inital render:
 - Lazy loading images (Using the intersection observer)
 - Above the fold should not wait for javascript
 
-loading=lazy comming to html
+`loading=lazy` comming to html
 
 React hydration:
-- Use the nomodule hack
-- Avoid transpilling for modern browsers
-- Dynamic imports and bundke scripting ( use webpack analyse)
-- `<loadable components>`
+- Use the [nomodule hack](https://www.reddit.com/r/javascript/comments/8unymn/can_we_use_the_nomodule_attribute_to_safely/) to avoid transpilling for modern browsers
+- Dynamic imports and bundle scripting ( use webpack analyse)
+- [loadable components](https://github.com/gregberge/loadable-components) (personal note: [React Lazy](https://reactjs.org/docs/code-splitting.html#reactlazy) could be used)
 - react profiling for accidental re-render
 
 Third parties:
 2/3 of the javascript loaded on a page is third party (google analytics, etc)
 
 - Looks for libraries helping you to load as less as possible
-For example `lite-youtube` to load everything only once the user clicks on it
+For example [lite-youtube](https://github.com/paulirish/lite-youtube-embed) to load everything only once the user clicks on it
 
 
 Conclusion:
