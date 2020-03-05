@@ -241,8 +241,8 @@ For example [lite-youtube](https://github.com/paulirish/lite-youtube-embed) to l
 Conclusion:
 Lighthouse is not a silver bullet, there is 15% treshold
 Measuring impact of changes is hard 
-use pw metrics
-perfomance.api
+use [pw metrics](https://github.com/paulirish/pwmetrics)
+[perfomance api](https://developer.mozilla.org/en-US/docs/Web/API/Performance)
 But one thing is to always record wins and losses.
 
 ## [Engineering led design](https://reactconfau.com/talks/engineering-led-design)
