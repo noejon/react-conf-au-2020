@@ -20,7 +20,7 @@ Designers and developers should literally talk the same language.
 
 ### Tooling
 
-Seek created Playroom (open source)
+Seek created [Playroom](https://github.com/seek-oss/playroom) (open source)
 - it consists of JSX as a design tool, where the whole design system is loaded
 - it is low entry level as it uses tags and props only
 - it does not need any installation and has shareable urls
@@ -33,7 +33,7 @@ A design system developer should accurately design:
 - define tokens (typo, color, breakpoints)
 - use primitives
 
-Seek build the DLS leveraging styled-systems
+Seek build the DS leveraging [styled-system](https://github.com/styled-system/styled-system)
 ```jsx
 <Box/>
 ```
@@ -47,8 +47,7 @@ WRITING CSS SHOULD BE THE EXCEPTION
 
 The layout is always the struggling part
 
-READ: space in design system (Curtis Nathan)
-https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62
+READ: [space in design system (Curtis Nathan)](https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62)
 
 Components themselves should not contain surrounding white spaces. 
 Margins should be avoided
@@ -56,8 +55,8 @@ The white spaces are owned by the layout components
 This is problematic because HTML by default has white spaces (for example `<h1>`)
 
 How to fix this?
-- Sit the text on the baseline (see repo braid)
-- Crop the top of the text node (css hack)
+- Sit the text on the baseline (see [braid repository](https://github.com/seek-oss/braid-design-system))
+- Crop the top of the text node ([css hack](https://github.com/seek-oss/braid-design-system/blob/dc052d40889d6f584971480b21bb6596ff4ec5b1/lib/hooks/typography/basekick.ts#L39))
 
 The line height remains untouched
 Whitespaces are equally balanced and under control
@@ -94,7 +93,7 @@ It is not going to happen without us
 
 By [Isabel Brison](https://twitter.com/ijayessbe)
 
-5 things we already know:
+5 things we already know about [wordpress](https://github.com/WordPress/WordPress):
 - it is a CMS
 - it is open source
 - it is 16 years old
@@ -104,10 +103,10 @@ By [Isabel Brison](https://twitter.com/ijayessbe)
 5 things we might not or don't know about WP:
 1 - growing parts of WP are now built in react (edit post)
 Existing functionalities (the monolith) are still implemented in php
-Guthenberg - Post editor
-@wordpress/element
+[Gutenberg](https://github.com/WordPress/gutenberg) - Post editor
 
-2 - WP has a package that wraps react in a package. @wordpress/element
+
+2 - WP has a package that wraps react in a package. [@wordpress/element](https://www.npmjs.com/package/@wordpress/element)
 It ships only the parts of react that are up to date (does not ship proptypes (old ones) for example)
 The reason why this wrapper is in place is to be able to switch if facebook decides to change mind on the license
 
@@ -118,13 +117,12 @@ The react app is in a monorepo, but is split into several npm packages (all open
 
 4 - WP packages can be used anywhere outside of WP
 
-As it has been open sourced, anyone can use it. And WP's biggest competitor, Drupal, now integrate Guthenberg, the post editor.
+As it has been open sourced, anyone can use it. And WP's biggest competitor, Drupal, now integrate Gutenberg, the post editor.
 
 5 - Third Party extension developers don't have to use react unless they want to. But extensions can now be written in react as well
 
 WP has a lot of scripts to create WP plugins in react. 
-@wordpress/create-block (sort of CRAP)
-https://github/com/wordpress/guthenberg
+[@wordpress/create-block](https://www.npmjs.com/package/@wordpress/create-block) (sort of CRAP)
 
 WP encourages people to build using react.
 
@@ -139,7 +137,7 @@ E2E tests make sure the app works as expected
 Integration test make sure the code works as expected
 Unit tests make sure the dev works as expected
 
-For front-ent projects,  see Kent C Dodds' pyramid
+For front-ent projects,  see [Kent C Dodds' 4 types of test](https://testingjavascript.com/)
 
 Unit testing is not the most important part of front end app testing
 
@@ -171,7 +169,7 @@ Here are the steps to automate the creation of unit tests
 5. Profit from it (seriously) - Adding a functionality just needs the model to be changed
 
 Test using:
-React Testing Library - Jest - Xstate
+[React Testing Library](https://github.com/testing-library/react-testing-library) - [Jest](https://github.com/facebook/jest) - [Xstate](https://github.com/davidkpiano/xstate)
 
 Xstate: used to generate the finite state machine
 We use that state machine to generate a path
