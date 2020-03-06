@@ -184,7 +184,7 @@ We can further improve the tests suite by using pupeteer to do e2e tests and run
 
 Time travel debugging in the future
 
-@xstate equivalent => simulato graph-walker
+@xstate equivalent => [simulato](https://github.com/GannettDigital/simulato) [graph-walker](https://github.com/KristianKarl-zz/GraphWalker)(java)
 
 BUT
 
@@ -203,7 +203,7 @@ Make your code do more.
 
 By [Hannes Obweger](https://twitter.com/obweger) and [Nadia Makarevich](https://twitter.com/adevnadia)
 
-Shared limited resources, tragedy of the common
+Shared limited resources, [tragedy of the commons](https://en.wikipedia.org/wiki/Tragedy_of_the_commons)
 Applies to software engineering too
 Codebase is shared amongst everyone but limited by our own brains
 Browser: limited bandwidth, CPU etc
@@ -236,7 +236,7 @@ Context solves issues but also has gotchas:
 
 The solution in this case is to keep both redux and context
 
-github.com/atlassian/react-sweet-state
+created [react-sweet-state](https://github.com/atlassian/react-sweet-state)
 
 As in real life there are ways to deal with shared resources when there is a bad actor:
 - setup rule and conventions
@@ -244,7 +244,7 @@ As in real life there are ways to deal with shared resources when there is a bad
 Importing one package from another package is OK
 It is not OK to reuse directly some of it
 Fetching components can't use render
-Use static code analysis - ESLINT
+Use static code analysis - [eslint](https://github.com/eslint/eslint)
 
 [github.com/atlassian/striker](https://github.com/atlassian/stricter)
 
@@ -276,24 +276,25 @@ Mono-repo benefits
 The problem with Monorepos was the lack of tooling for problems like:
 
 - Dependency management: 
-Lerna, built Bolt with Atlassian: external packages versions have to be equal, external packages have to be on root, internal packages must be in range
+[Lerna](https://github.com/lerna/lerna), built [Bolt](https://github.com/boltpkg/bolt) with Atlassian: external packages versions have to be equal, external packages have to be on root, internal packages must be in range
 
-Came along yarn workspace, that did the same. Except if different versions of react it becomes problematic.
-This can be checked by using Manypkg:
-- it is a linter for package.json
+Came along [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/), that did the same. Except if different versions of react it becomes problematic.
+
+This can be checked by using [Manypkg](https://github.com/Thinkmill/manypkg):
+- it is a linter for `package.json`
 Available commands are `check`, `fix`
 Those are constraints that are solving people's problems
 
 2. Packaging problems:
-- consistent package.json fields
+- consistent `package.json` fields
 - bundler
-- babel
+- [babel](https://github.com/babel/babel)
 - multiple entrypoints
 - able to dev without having to rebuild
 
-preconstruct (npm)
+Created [preconstruct](https://github.com/preconstruct/preconstruct)
 
-bundling is hard, but is eased with Rollup
+bundling is hard, but is eased with [Rollup](https://github.com/rollup/rollup)
 good at treeshaking
 Babel (not in .babelrc but babel.config.js)
 Multiple entrypoints
@@ -306,7 +307,7 @@ command `dev` creates dist files, there are no build scripts
 - Bump dependency packages
 - Easily automate releases
 
-Build Changesets (npm)
+Built [changesets](https://github.com/atlassian/changesets)
 
 There are more benefits to a MR:
 
@@ -314,7 +315,7 @@ There are more benefits to a MR:
 - strict API contracts (node exports field in package.json to come)
 - structure
 
-monorepo.guide (knowledge they gathered on their monorepo journey)
+[monorepo.guide](https://monorepo.guide/) (knowledge they gathered on their monorepo journey)
 
 ## [How to teach an old dev new tech: Learning React as a senior developer](https://reactconfau.com/talks/how-to-teach-an-old-dev-new-tech-learning-react-as-a-senior-developer)
 
