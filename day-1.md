@@ -91,7 +91,7 @@ To discover more about design systems => Rune Madsen
 
 `Perfect is the enemy of good - Voltaire`
 
-## [(Proto)yyping innovation in BBC News](https://reactconfau.com/talks/prototyping-innovation-in-bbc-news)
+## [(Proto)typing innovation in BBC News](https://reactconfau.com/talks/prototyping-innovation-in-bbc-news)
 
 by James Dooley
 
@@ -186,7 +186,7 @@ For more information: blog beautiful interaction
 
 By [Selena Small](https://twitter.com/selenasmall88) and [Michael Milewski](https://twitter.com/saramic)
 
-An act by Michael and ..., starting with showing us what not to do when pair programming followed by a better approach to it, introducing ping-pong programming (one engineer writes test while the other one implements the functionnality)
+An act by Michael and Selena, starting with showing us what not to do when pair programming followed by a better approach to it, introducing ping-pong programming (one engineer writes test while the other one implements the functionnality)
 
 The key points to take out of this act are:
 - Prepare ergonomics, desk to be prepared for pairing
