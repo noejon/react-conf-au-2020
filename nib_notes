@@ -1,0 +1,42 @@
+Design System
+
+https://github.com/seek-oss/braid-design-system
+https://github.com/seek-oss/playroom
+https://seek-oss.github.io/braid-design-system/playroom/#?code=N4Igxg9gJgpiBcIA8BBANjATgFwATYgDsYBeAHRAEtCAzCCgPgHUY1IBbGfCXABTQCGAT0wQI7AIRIA9OizYGIAL5A
+h1 css hack
+https://github.com/seek-oss/braid-design-system/blob/dc052d40889d6f584971480b21bb6596ff4ec5b1/lib/hooks/typography/basekick.ts#L39
+
+
+React final forms
+
+https://final-form.org/
+https://final-form.org/docs/final-form/getting-started
+https://final-form.org/docs/react-final-form/migration/redux-form
+https://codesandbox.io/s/github/final-form/react-final-form/tree/master/examples/subscriptions?from-embed
+
+Model driven testing
+
+https://reactconfau.com/talks/write-fewer-tests-model-based-testing-in-react
+https://slides.com/davidkhourshid/mbt#/
+https://testingjavascript.com/
+https://testing-library.com/docs/react-testing-library/intro
+https://jestjs.io/docs/en/getting-started
+https://en.wikipedia.org/wiki/Model-based_testing
+https://xstate.js.org/docs/
+
+Monorepo
+
+https://monorepo.guide/
+https://github.com/atlassian/changesets
+https://github.com/preconstruct/preconstruct
+https://github.com/Thinkmill/manypkg
+https://lerna.js.org/
+https://github.com/lerna/lerna
+
+misc
+
+https://reactronica.com/
+
+Budget for open source
+
+https://budgetforopensource.org/
